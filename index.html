@@ -1141,6 +1141,11 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
+          <div class="form-success-message" id="successMessage" style="display: none;">
+            <ion-icon name="checkmark-circle-outline"></ion-icon>
+            <p>Thank you! Your message has been sent successfully.</p>
+          </div>
+
           <form action="https://formspree.io/f/xgoaepez" method="POST" class="form" data-form>
 
             <input type="hidden" name="_next" value="https://charlie-lindgren.github.io/?sent=true">
@@ -1178,6 +1183,24 @@
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
+
+  <script>
+    // Check if form was submitted and show success message
+    if (window.location.search.includes('sent=true')) {
+      // Show success message
+      document.getElementById('successMessage').style.display = 'flex';
+      // Navigate to contact page
+      document.querySelector('[data-page="contact"]').classList.add('active');
+      document.querySelector('[data-page="about"]').classList.remove('active');
+      // Update nav
+      document.querySelectorAll('[data-nav-link]').forEach(link => {
+        link.classList.remove('active');
+        if (link.textContent.toLowerCase() === 'contact') link.classList.add('active');
+      });
+      // Clean URL
+      history.replaceState({}, document.title, window.location.pathname);
+    }
+  </script>
 
   <!--
     - ionicon link
