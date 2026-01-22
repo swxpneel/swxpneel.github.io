@@ -1248,6 +1248,40 @@ textarea.form-input::-webkit-resizer { display: none; }
   margin: 0;
 }
 
+.medium-link-container {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.medium-description {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  margin-bottom: 25px;
+}
+
+.medium-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--bg-gradient-onyx);
+  color: var(--orange-yellow-crayola);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-500);
+  padding: 15px 30px;
+  border-radius: 14px;
+  border: 1px solid var(--jet);
+  transition: var(--transition-1);
+}
+
+.medium-link-btn:hover {
+  background: var(--bg-gradient-yellow-1);
+  color: var(--smoky-black);
+}
+
+.medium-link-btn ion-icon {
+  font-size: 24px;
+}
+
 
 
 /*-----------------------------------*\
