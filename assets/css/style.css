@@ -1226,7 +1226,27 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
+.form-success-message {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(to right, hsl(120, 40%, 25%), hsl(120, 40%, 20%));
+  border: 1px solid hsl(120, 50%, 40%);
+  border-radius: 14px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  color: hsl(120, 60%, 70%);
+  font-size: var(--fs-6);
+}
 
+.form-success-message ion-icon {
+  font-size: 24px;
+  color: hsl(120, 60%, 60%);
+}
+
+.form-success-message p {
+  margin: 0;
+}
 
 
 
