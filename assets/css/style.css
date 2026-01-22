@@ -319,9 +319,10 @@ main {
   max-height: 112px;
   overflow: hidden;
   transition: var(--transition-2);
+  padding: 15px;
 }
 
-.sidebar.active { max-height: 405px; }
+.sidebar.active { max-height: 420px; }
 
 .sidebar-info {
   position: relative;
@@ -334,14 +335,21 @@ main {
 .avatar-box {
   background: var(--bg-gradient-onyx);
   border-radius: 20px;
+  overflow: hidden;
+}
+
+.avatar-box img {
+  border-radius: 20px;
 }
 
 .info-content .name {
   color: var(--white-2);
-  font-size: var(--fs-3);
+  font-size: 22px;
   font-weight: var(--fw-500);
   letter-spacing: -0.25px;
   margin-bottom: 10px;
+  padding: 0 10px;
+  text-align: center;
 }
 
 .info-content .title {
@@ -352,6 +360,7 @@ main {
   width: max-content;
   padding: 3px 12px;
   border-radius: 8px;
+  margin: 0 auto;
 }
 
 .info_more-btn {
@@ -390,6 +399,7 @@ main {
   opacity: 0;
   visibility: hidden;
   transition: var(--transition-2);
+  padding: 0 10px;
 }
 
 .sidebar.active .sidebar-info_more {
@@ -401,6 +411,7 @@ main {
   display: grid;
   grid-template-columns: 1fr;
   gap: 16px;
+  padding: 0 5px;
 }
 
 .contact-item {
@@ -1221,7 +1232,62 @@ textarea.form-input::-webkit-resizer { display: none; }
 
 .form-btn:disabled:hover::before { background: var(--bg-gradient-jet); }
 
+.form-success-message {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: linear-gradient(to right, hsl(120, 40%, 25%), hsl(120, 40%, 20%));
+  border: 1px solid hsl(120, 50%, 40%);
+  border-radius: 14px;
+  padding: 15px 20px;
+  margin-bottom: 20px;
+  color: hsl(120, 60%, 70%);
+  font-size: var(--fs-6);
+}
 
+.form-success-message ion-icon {
+  font-size: 24px;
+  color: hsl(120, 60%, 60%);
+}
+
+.form-success-message p {
+  margin: 0;
+}
+
+.medium-link-container {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.medium-description {
+  color: var(--light-gray);
+  font-size: var(--fs-5);
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.medium-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--bg-gradient-onyx);
+  color: var(--orange-yellow-crayola);
+  font-size: var(--fs-5);
+  font-weight: var(--fw-500);
+  padding: 18px 35px;
+  border-radius: 14px;
+  border: 1px solid var(--jet);
+  transition: var(--transition-1);
+}
+
+.medium-link-btn:hover {
+  background: var(--bg-gradient-yellow-1);
+  color: var(--smoky-black);
+}
+
+.medium-link-btn ion-icon {
+  font-size: 28px;
+}
 
 
 
@@ -1339,7 +1405,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .avatar-box { border-radius: 30px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img { width: 120px; border-radius: 30px; }
 
   .info-content .name { margin-bottom: 15px; }
 
