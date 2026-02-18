@@ -311,7 +311,7 @@
                 <h4 class="h4 service-item-title">AI Applications Research & Development</h4>
 
                 <p class="service-item-text">
-                  The most modern and high-quality AI applications design (RAG, Agent, Tool-calling, etc.).
+                  The most modern and high-quality AI applications design (RAG, Agent, Skills, Tool-calling, etc.).
                 </p>
               </div>
 
@@ -654,15 +654,21 @@
 
               <div class="timeline-text">
 
-                <p>•&nbsp;&nbsp;&nbsp;&nbsp;Developed and deployed 20+ LLM applications on AWS with RAG to automate IT operations (identify incident, import, generate, recommend, apply, and execute solutions). Built webagent to perform multiple actions on webpages and customized chatbot as user assistant. Successfully automated 90% of engineer workload and contributed to $10M in new orders.</p>
+                <p>•&nbsp;&nbsp;&nbsp;&nbsp;<strong>Autonomous Agent Architecture &amp; Orchestration:</strong> Architected an enterprise-grade agentic system based on Tool-Calling and ReAct paradigms. Orchestrated the end-to-end automation lifecycle—from intent recognition and task planning to execution and validation—ensuring data privacy and high concurrency, contributing to $6M in annual orders.</p>
                 <br>
-                <p>•&nbsp;&nbsp;&nbsp;&nbsp;Fine-tuned LLaMA Models (70B, 11B) with optimization techniques (flash-attention, unsloth, deepspeed, quantization) and regularization methods (dropout, rsLoRA, DoRA) on specific business tasks; Deployed with VLLM and Ollama to achieve 20% improvement in knowledge tests, 50% higher successful rate, and 80% lower cost compared to o1, Claude, and Gemini.</p>
+                <p>•&nbsp;&nbsp;&nbsp;&nbsp;<strong>Devi Multi-Agent Collaborative Framework:</strong> Engineered a project management agent with MCP toolset to automate project creation (parsing PRDs into deliverables), tracking (analyzing status), and management (dynamic reprioritization). Built a talent matching system to auto-assign tasks based on expertise, automating the full "Create-Schedule-Manage" lifecycle.</p>
                 <br>
-                <p>•&nbsp;&nbsp;&nbsp;&nbsp;Built web agent system with RAG and COT to realize end-to-end automatic incident resolution by recursively interacting with browser (e.g. add user to a group, create a computing notebook, configure/restart a computing cluster), as well as validating the task result. Developed cache system to cache steps with editable parameters for faster execution and customization.</p>
+                <p>•&nbsp;&nbsp;&nbsp;&nbsp;<strong>Self-Healing Workflow:</strong> Designed a closed-loop CoT agent for operations. Upon incident triggers, the agent retrieves historical cases, generates fixes, and iteratively self-refines solutions based on error logs while generating verification scripts. Improved solution accuracy to 96% and reduced response time to under 2 minutes.</p>
                 <br>
-                <p>•&nbsp;&nbsp;&nbsp;&nbsp;Designed recommendation system with multiple vector bases that boosted accuracy by 45%. Improved recommended results and final selection by extending data scope, rerank models, pre-defined rules, weighted scores, AI summarizer and filter.</p>
+                <p>•&nbsp;&nbsp;&nbsp;&nbsp;<strong>General-Purpose Web Agent:</strong> Solved dynamic environment challenges by developing a Selenium-based Web Agent. Combined LLM intent recognition with HTML DOM tree parsing and recursive interaction to manipulate unstructured pages. Introduced Visual Language Model (VLM) verification, achieving a 63% end-to-end resolution rate.</p>
                 <br>
-                <p>•&nbsp;&nbsp;&nbsp;&nbsp;Created chatbot with tool-calling and MCP that helps user to look up information and perform actions to on company platform.</p>
+                <p>•&nbsp;&nbsp;&nbsp;&nbsp;<strong>Action Space Caching System:</strong> Constructed a "Script Alignment + Variable Filling + Multi-path Caching" mechanism. Enabled the generalization of single scripts to multiple incidents and achieved a 20x execution speedup by reusing historical paths.</p>
+                <br>
+                <p>•&nbsp;&nbsp;&nbsp;&nbsp;<strong>LLM Post-Training:</strong> Led the Supervised Fine-Tuning (SFT) of vertical Ops LLMs. Utilized Unsloth to accelerate distributed training, achieving a 55% relative improvement in domain-specific technical accuracy compared to GPT-4.</p>
+                <br>
+                <p>•&nbsp;&nbsp;&nbsp;&nbsp;<strong>Inference Acceleration &amp; Industrialization:</strong> Deployed distributed inference services via vLLM. Achieved 200+ tokens/s generation speed and 100+ high concurrency, reducing agent interaction costs by 80% to support high-frequency tool calling.</p>
+                <br>
+                <p>•&nbsp;&nbsp;&nbsp;&nbsp;<strong>Advanced RAG System:</strong> Built a multi-path retrieval system mapping hierarchical data to multiple vector stores. Implemented dimensional expansion, AI summarization, Reranking, and non-linear scoring, boosting the Top-3 hit rate from 65% to 88%.</p>
 
               </div>
 
@@ -675,9 +681,9 @@
               <span>09/2023 — 03/2024</span>
 
               <div class="timeline-text">
-                <p>•&nbsp;&nbsp;&nbsp;&nbsp;Boosted 50% speed and saved 75% cost compared to ChatGPT4 in stock topics by deploying an advanced RAG LLM structure in Docker and achieved 62% accuracy in stock prediction. Automated the process of keyword extraction, knowledge index (MongoDB), and request for stock data and news with customized ETL Pipeline and RESTful API (Flask).</p>
+                <p>•&nbsp;&nbsp;&nbsp;&nbsp;<strong>High-Performance RAG Stock Predictor:</strong> Deployed an agent-based stock prediction system in Docker. Improved processing speed by 65% and reduced costs by 75% compared to GPT-4, achieving 62% prediction accuracy.</p>
                 <br>
-                <p>•&nbsp;&nbsp;&nbsp;&nbsp;Deployed an OneAPI transit service platform with account and cost management to integrate multiple LLMs’ APIs (Demos: OpenAI, Claude, Gemini, Llama3, etc.) that allows developers to call different LLMs with universal base url and secret key.</p>
+                <p>•&nbsp;&nbsp;&nbsp;&nbsp;<strong>OneAPI Aggregation Platform:</strong> Developed a unified API gateway with cost/account management, integrating OpenAI, Claude, and Gemini. Enabled universal model switching via a single Base URL, reducing manual configuration time by 85%.</p>
 
               </div>
 
@@ -690,11 +696,9 @@
               <span>07/2023 — 02/2024</span>
 
               <div class="timeline-text">
-                <p>•&nbsp;&nbsp;&nbsp;&nbsp;Designed a public opinion analysis system by introducing 20+ LLMs with an internal knowledge base mounted for stakeholders; Enabled fine-tuning, multi-task evaluation and deployment of new LLMs; Encapsulated all services into API for front end team.</p>
+                <p>•&nbsp;&nbsp;&nbsp;&nbsp;<strong>Enterprise Sentiment Analysis System:</strong> Deployed and benchmarked 20+ LLMs on sentiment tasks. Designed a sentiment analysis pipeline integrating Kafka for real-time processing (News-Analysis-Factor Generation) and reduced latency by 80%.</p>
                 <br>
-                <p>•&nbsp;&nbsp;&nbsp;&nbsp;Developed APIs and ETL pipelines (Kafka) to link LLMs with internal knowledge base (MongoDB, Elasticsearch) to provide complementary data for RAG in LLM conversation; Built LangChain pipelines for LLMs multi-turn conversation.</p>
-                <br>
-                <p>•&nbsp;&nbsp;&nbsp;&nbsp;Improved LLMs performance by fine-tuning with P-TuningV2 and (Q)LoRA and creating a prompt management system to match LLMs and tasks with customized prompt templates. Successfully boosted 20% F1 score in sentiment analysis that achieved a Sharpe Ratio of 3 with better sentiment factors and speeded up 10X data processing time on trillion-level data.</p>
+                <p>•&nbsp;&nbsp;&nbsp;&nbsp;<strong>Fine-tuning &amp; Prompt Engineering:</strong> Led LLM fine-tuning using P-Tuning v2 and (Q)LoRA. Established a prompt management system, improving F1 score by 20% in sentiment tasks and achieving a backtested Sharpe Ratio of 3.</p>
 
               </div>
 
