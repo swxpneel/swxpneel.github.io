@@ -1,0 +1,9 @@
+{
+  "name": "anis-portfolio",
+  "version": "1.0.0",
+  "description": "Anis Bouchema — Personal Portfolio",
+  "private": true,
+  "scripts": {
+    "projects:generate": "node tools/generateProjectsData.js"
+  }
+}
