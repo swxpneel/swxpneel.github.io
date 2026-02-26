@@ -101,11 +101,8 @@ Before running, add your slug's title and category to the maps inside
 | Slug | Category | Download |
 |------|----------|---------|
 | `inventory-optimization-model` | analytics | ✅ xlsx |
-| `commercial-trend-modelling` | analytics | — |
 | `marketing-performance-dashboard` | analytics | ✅ xlsx |
-| `business-case-presentation-toolkit` | business | — |
 | `resource-scheduling-tool` | operations | ✅ xlsx |
-| `high-park-location-launch` | business | — |
 
 ## License
 

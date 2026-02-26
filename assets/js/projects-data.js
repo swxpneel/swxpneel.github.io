@@ -26,28 +26,12 @@ var PROJECTS = [
     description: 'Dynamic inventory optimization model built for La Diperie.'
   },
   {
-    id:          'commercial-trend-modelling',
-    title:       'Commercial Trend Modelling',
-    category:    'analytics',
-    thumbnail:   './assets/images/project-2.png',
-    download:    '',
-    description: 'Trend analysis and commercial forecasting model.'
-  },
-  {
     id:          'marketing-performance-dashboard',
     title:       'Marketing Performance Dashboard',
     category:    'analytics',
     thumbnail:   './assets/images/project-3.jpg',
     download:    './assets/projects/downloads/marketing-performance-dashboard.xlsx',
     description: 'KPI dashboard tracking marketing channel performance.'
-  },
-  {
-    id:          'business-case-presentation-toolkit',
-    title:       'Business Case & Presentation Toolkit',
-    category:    'business',
-    thumbnail:   './assets/images/project-4.png',
-    download:    '',
-    description: 'Structured templates for business case development and executive presentations.'
   },
   {
     id:          'resource-scheduling-tool',
@@ -57,14 +41,6 @@ var PROJECTS = [
     download:    './assets/projects/downloads/resource-scheduling-tool.xlsx',
     description: 'Workforce and resource scheduling optimizer for operational efficiency.'
   },
-  {
-    id:          'high-park-location-launch',
-    title:       'High Park Location Launch',
-    category:    'business',
-    thumbnail:   './assets/images/project-6.png',
-    download:    '',
-    description: 'Full launch plan for the High Park franchise location.'
-  }
 ];
 
 
