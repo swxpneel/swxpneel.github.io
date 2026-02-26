@@ -678,116 +678,8 @@
 
           </div>
 
-          <ul class="project-list">
-
-            <li class="project-item  active" data-filter-item data-category="analytics">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-1.jpg" alt="Inventory Optimization Model" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Inventory Optimization Model</h3>
-
-                <p class="project-category">Analytics</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="analytics">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-2.png" alt="Commercial Trend Modelling" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Commercial Trend Modelling</h3>
-
-                <p class="project-category">Analytics</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="analytics">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-3.jpg" alt="Marketing Performance Dashboard" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Marketing Performance Dashboard</h3>
-
-                <p class="project-category">Analytics</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="business">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-4.png" alt="Business Case and Presentation Toolkit" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Business Case & Presentation Toolkit</h3>
-
-                <p class="project-category">Business</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="operations">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-5.png" alt="Resource Scheduling Tool" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">Resource Scheduling Tool</h3>
-
-                <p class="project-category">Operations</p>
-
-              </a>
-            </li>
-
-            <li class="project-item  active" data-filter-item data-category="business">
-              <a href="#">
-
-                <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/project-6.png" alt="High Park Location Launch" loading="lazy">
-                </figure>
-
-                <h3 class="project-title">High Park Location Launch</h3>
-
-                <p class="project-category">Business</p>
-
-              </a>
-            </li>
-
+          <ul class="project-list" id="project-list">
+            <!-- Project cards are injected by assets/js/projects-data.js -->
           </ul>
 
         </section>
@@ -846,6 +738,11 @@
 
 
 
+
+  <!--
+    - project data + card renderer (must load before script.js)
+  -->
+  <script src="./assets/js/projects-data.js"></script>
 
   <!--
     - custom js link
