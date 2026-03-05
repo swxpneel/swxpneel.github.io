@@ -145,7 +145,7 @@ export const projects: Project[] = [
     description:
       '2-player webcam shooter with hand/eye gesture controls, real-time multiplayer, and server-authoritative scoring.',
     tech: ['Next.js', 'Socket.IO', 'Three.js', 'MediaPipe'],
-    image: '/assets/images/projects/BubblePoppAR/thumbnail_v11.png',
+    image: '/assets/images/projects/BubblePoppAR/thumbnail_v16.png',
     links: [
       {
         label: 'Live site',
