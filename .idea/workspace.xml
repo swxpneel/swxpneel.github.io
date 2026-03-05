@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="872b4b81-b95a-4da9-be37-df22e15b225d" name="Changes" comment="init" />
+    <list default="true" id="872b4b81-b95a-4da9-be37-df22e15b225d" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -86,7 +86,7 @@
       <workItem from="1760347034903" duration="1551000" />
       <workItem from="1766093657553" duration="1952000" />
       <workItem from="1768760415462" duration="112000" />
-      <workItem from="1768760538226" duration="378000" />
+      <workItem from="1768760538226" duration="1070000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <option name="closed" value="true" />

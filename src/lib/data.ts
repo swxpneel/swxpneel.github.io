@@ -140,6 +140,34 @@ export const clients: Client[] = [
 
 export const projects: Project[] = [
   {
+    title: 'Bubble-PoppAR',
+    category: 'Applications',
+    description:
+      '2-player webcam shooter with hand/eye gesture controls, real-time multiplayer, and server-authoritative scoring.',
+    tech: ['Next.js', 'Socket.IO', 'Three.js', 'MediaPipe'],
+    image: '/assets/images/projects/BubblePoppAR/thumbnail.png',
+    links: [
+      {
+        label: 'Live site',
+        href: 'https://ramapohack2026.onrender.com',
+      },
+      {
+        label: 'Source code',
+        href: 'https://github.com/daniel-rajakumar/Bubble-PoppAR',
+      },
+    ],
+    screenshots: [
+      {
+        src: '/assets/images/projects/BubblePoppAR/gameplay-01.png',
+        caption: 'Gameplay 1',
+      },
+      {
+        src: '/assets/images/projects/BubblePoppAR/gameplay-02.png',
+        caption: 'Gameplay 2',
+      },
+    ],
+  },
+  {
     title: 'Assembler & Emulator (VC407)',
     category: 'Applications',
     description:
