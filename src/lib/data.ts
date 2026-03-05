@@ -158,12 +158,16 @@ export const projects: Project[] = [
     ],
     screenshots: [
       {
-        src: '/assets/images/projects/BubblePoppAR/gameplay-01.png',
-        caption: 'Gameplay 1',
+        src: '/assets/images/projects/BubblePoppAR/screenshot_3.png',
+        caption: 'Match Lobby & Camera Connection',
       },
       {
-        src: '/assets/images/projects/BubblePoppAR/gameplay-02.png',
-        caption: 'Gameplay 2',
+        src: '/assets/images/projects/BubblePoppAR/screenshot_2.png',
+        caption: 'Mission Setup Room',
+      },
+      {
+        src: '/assets/images/projects/BubblePoppAR/screenshot_1.png',
+        caption: 'Live Gameplay - Target Hunt',
       },
     ],
   },
